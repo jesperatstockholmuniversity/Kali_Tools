@@ -1,0 +1,88 @@
+**************************************************
+Please note that for every command there is a
+manual. Type "man" and the tool/command that you
+want to read the manual for. E.g. "man dig" will
+dispay the manual for dig (a domain name mapping
+tool)
+
+$ - indicates regular user
+# - indicates root user
+*************************************************
+
+NETWORK TOOLS/COMMANDS/PROGRAMS
+Get IP address behind a domain name
+$ dig facebook.com
+
+Get information about an IP address
+$ whois 1.1.1.1
+
+
+FORENSIC TOOLS/COMMANDS/PROGRAMS
+Calculate hash sums of text strings
+$ echo -n "stockholm" | md5sum
+
+$ echo -n "stockholm" | sha1sum
+
+$ echo -n "stockholm" | sha256sum
+
+$ echo -n "stockholm" | whirlpool
+
+Calculate hash sums of all files in the location /etc/
+$ md5sum /etc/* 
+
+A more powerful hashing tool is md5deep or sha1deep
+$ md5deep -r /etc/ 
+
+# Calculcate the hash sum of all files in all folders (recursive mode) in the location /etc/
+$ md5deep -r /etc/ 
+
+# Calculate the hash sums of all the files in all folders in the location (etc) and point out the ones that include the digits 789
+$ md5deep -r /etc/ | grep 789
+
+
+BASIC UNIX/LINUX TOOLS/COMMANDS/PROGRAMS
+
+Get durrent date 
+$ date 
+
+Go to another directory
+$ cd 
+
+Please note that can use the TAB key on your keyboard to search for folders that you do not know the full name of. 
+Let us say that you know there is a folder called something like home, but you do not know. Then just type
+"cd h" and press the TAB key, and the Terminal will suggest /home/ to you. If you press tab twice it will give you
+more suggestions (if there are more folders starting with "h")
+
+This works with commands as well. Type the beginning of a command and then press TAB. Like for instance "dat" and then TAB.
+Then the Terminal will suggest "date" as an autocomplete suggestion. 
+
+Go to the Kali user's home folder/directory
+$ cd /home/kali/
+
+Go to the Kali user's home folder/directory
+$ cd /home/kali/Downloads
+
+Get the caldendar for 2048
+$ cal 2048
+
+Get the run time of a certain command 
+$ time mda5sum /etc/* 
+
+Run a command every 2 seconds 
+$ watch date 
+
+Search for a keyword in all text files in the folder /etc/
+$ grep "bitcoin" /etc/*.txt
+
+Monitor a text file (e.g. a log file)
+$ tail -f /var/log/auth.log 
+
+Read a text file in the terminal
+$ cat /var/log/auth.log
+
+Read a text file a bit at a time in the terminal 
+$ less /var/log/auth.log 
+
+Check how much disk space is free or used
+$ df -h
+
