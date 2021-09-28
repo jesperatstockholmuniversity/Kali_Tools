@@ -33,11 +33,14 @@ $ md5sum /etc/*
 A more powerful hashing tool is md5deep or sha1deep
 $ md5deep -r /etc/ 
 
-# Calculcate the hash sum of all files in all folders (recursive mode) in the location /etc/
+Calculcate the hash sum of all files in all folders (recursive mode) in the location /etc/
 $ md5deep -r /etc/ 
 
-# Calculate the hash sums of all the files in all folders in the location (etc) and point out the ones that include the digits 789
+Calculate the hash sums of all the files in all folders in the location (etc) and point out the ones that include the digits 789
 $ md5deep -r /etc/ | grep 789
+
+Identify file type of a certain file, for example audio.mp3
+$ file audio.mp3
 
 
 BASIC UNIX/LINUX TOOLS/COMMANDS/PROGRAMS
