@@ -1,0 +1,28 @@
+##################################
+An introduction to collecting 
+clues and evidence from Onion 
+sites ("dark websites") on the Tor
+Network
+##################################
+
+1. Go to torproject.org
+
+2. Donwload Tor browser for Linux
+
+3. Click on the downloaded file "tor-browser-linux64-10.5.6_en-US.tar.xz"
+
+4. Click extract and choose to extract it in the "Downloads" folder
+
+5. Open the folder that you extracted. It should be named "tor-browser_en-US" and be located under "Downloads"
+
+6. Double click the file  "start-tor-browser.desktop" 
+
+7. Wait
+
+8. Click "Connect" when the Tor Browser starts up. 
+
+9. Go to http:// www. abyssou4y5ang24dn4cfkrwd3fsiczx7xg7n7mzlcthrpktfcar6j2qd. onion / products (remove spaces)
+
+10. For the "homework" execise, browse the web page and think about what you find interesting about it. 
+Are the prices interesting to you? Maybe you want to analyse the prices of Ketamine over time? Are the pictures most interesting? Can you tell anything about
+the quality of the products by looking at the images? For example. 
