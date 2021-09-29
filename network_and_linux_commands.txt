@@ -44,6 +44,8 @@ $ file audio.mp3
 
 
 BASIC UNIX/LINUX TOOLS/COMMANDS/PROGRAMS
+Change keyboard layout to Ukrainian layout
+$ setxkbmap ua 
 
 Get durrent date 
 $ date 
