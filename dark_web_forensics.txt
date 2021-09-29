@@ -21,7 +21,9 @@ Network
 
 8. Click "Connect" when the Tor Browser starts up. 
 
-9. Go to http:// www. abyssou4y5ang24dn4cfkrwd3fsiczx7xg7n7mzlcthrpktfcar6j2qd. onion / products (remove spaces)
+9. Double check that you are conencted to the Tor network by going to the URL: https://check.torproject.org/ It should say: "Congratulations. This browser is configred to use Tor".
+
+10. Go to http:// www. abyssou4y5ang24dn4cfkrwd3fsiczx7xg7n7mzlcthrpktfcar6j2qd. onion / products (remove spaces)
 
 10. For the "homework" execise, browse the web page and think about what you find interesting about it. 
 Are the prices interesting to you? Maybe you want to analyse the prices of Ketamine over time? Are the pictures most interesting? Can you tell anything about
