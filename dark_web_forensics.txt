@@ -55,7 +55,19 @@ automatically
 7. If everything went well, run the following command: "wget -r http://www.abyssou4y5ang24dn4cfkrwd3fsiczx7xg7n7mzlcthrpktfcar6j2qd.onion/products" 
 8. Now wget should start downloading the web pages on the Onion site abyssou4y5ang24dn4cfkrwd3fsiczx7xg7n7mzlcthrpktfcar6j2qd.onion
 
-##################################
-Exercise 2: Save many web pages 
-automatically
-##################################
+
+#######################################
+Exercise 3: Use Selenium and Tor 
+to Automatically Scrape an Onion Site
+#######################################
+1. Open the Temrinal
+2. Install tor if you have not already. Download the Tor Browser from torproject.org if you have not already done that yet. 
+3. Type "pip" (without quoation marks) into the Terminal and press ENTER
+4. Press Y to accept any packges being installed
+5. If installation of pip was successful, continue to install geckodriver by typing "geckodriver" into the terminal and then press ENTER
+6. Type "python3" into the Terminal to install python3 (if it is not already installed)
+7. Then use pip to install Selenium (the scraping tool). Type "pip install selenium" into the terminal
+8. Install the Tor Browser Selenium driver: "pip install tbselenium" 
+9. Go back from this web page to the start page of Kali Tools and go to the folder Tor_Scraping
+10. Download the selenium_scraping.py script
+11. Run $ selenium_scraping.py onionsite.onion username password
