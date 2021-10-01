@@ -28,3 +28,34 @@ Network
 10. For the "homework" execise, browse the web page and think about what you find interesting about it. 
 Are the prices interesting to you? Maybe you want to analyse the prices of Ketamine over time? Are the pictures most interesting? Can you tell anything about
 the quality of the products by looking at the images? For example. 
+
+##################################
+Exercise 1: Save web conten from 
+an Onion site
+##################################
+
+1. Open the Tor browser
+2. Go to http:// www. abyssou4y5ang24dn4cfkrwd3fsiczx7xg7n7mzlcthrpktfcar6j2qd. onion / products 
+3. Right click somewhere on the web page, select "Save page as..." 
+4. Choose a location to save the web page to.
+5. Go to the folder where you saved the web page and look at the HTML files
+
+
+##################################
+Exercise 2: Save many web pages 
+automatically
+##################################
+
+1. Open up the Terminal in Kali
+2. Type "tor" (without quotation marks). Press ENTER
+3. Press the Y key when you are asked if you want to install tor 
+4. Press Y key again if you are asked the same thing again 
+5. If everything went fine, you should be able to type in the following command: "torsocks --shell" (without quotation marks)
+6. If that went fine, you should see a text similar to "New torified shell coming up..."
+7. If everything went well, run the following command: "wget -r http://www.abyssou4y5ang24dn4cfkrwd3fsiczx7xg7n7mzlcthrpktfcar6j2qd.onion/products" 
+8. Now wget should start downloading the web pages on the Onion site abyssou4y5ang24dn4cfkrwd3fsiczx7xg7n7mzlcthrpktfcar6j2qd.onion
+
+##################################
+Exercise 2: Save many web pages 
+automatically
+##################################
