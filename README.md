@@ -15,4 +15,5 @@ In the folder onion_site_scraping you will find some Python scripts designed to 
 
 ## More Tools ##
 * A great resource for finding forensic tools is: https://forensicswiki.xyz
+* Some additional network forensics tools can be found here: https://resources.infosecinstitute.com/topic/network-forensics-tools/
 * A great resource for finding network traffic dumps is: https://www.malware-traffic-analysis.net/2021/index.html
