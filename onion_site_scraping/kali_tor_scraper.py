@@ -1,5 +1,6 @@
 import sys
 import tbselenium.common as cm
+from os.path import isfile
 from tbselenium.tbdriver import TorBrowserDriver
 from tbselenium.utils import launch_tbb_tor_with_stem
 
@@ -14,8 +15,15 @@ STEM code
 #tor_process.kill()
 """
 
-# Read user input URL
-url = str(sys.argv[1])
+# Read user input
+user_input = str(sys.argv[1])
+
+if(isfile(user_input)):
+    print("")
+else:
+    print("Not a file ", type(user_input))
+
+#url = str(sys.argv[1])
 
 # Run with the Tor browser
 with TorBrowserDriver("/home/kali/Downloads/tor-browser_en-US/") as driver:
