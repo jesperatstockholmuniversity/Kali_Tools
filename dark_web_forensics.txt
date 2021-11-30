@@ -1,9 +1,7 @@
-##################################
-An introduction to collecting 
-clues and evidence from Onion 
-sites ("dark websites") on the Tor
-Network
-##################################
+#############################################################
+An introduction to collecting clues and evidence from Onion 
+sites ("dark websites") on the Tor Network
+#############################################################
 
 1. Go to torproject.org
 2. Donwload Tor browser for Linux
@@ -42,8 +40,9 @@ automatically
 4. Press Y key again if you are asked the same thing again 
 5. If everything went fine, you should be able to type in the following command: "torsocks --shell" (without quotation marks)
 6. If that went fine, you should see a text similar to "New torified shell coming up..."
-7. If everything went well, run the following command: "wget -r http://www.abyssou4y5ang24dn4cfkrwd3fsiczx7xg7n7mzlcthrpktfcar6j2qd.onion/products" 
-8. Now wget should start downloading the web pages on the Onion site abyssou4y5ang24dn4cfkrwd3fsiczx7xg7n7mzlcthrpktfcar6j2qd.onion
+7. If everything went well, run the following command: "wget -r http://www.abyssou4y5ang24dn4cfkrwd3fsiczx7xg7n7mzlcthrpktfcar6j2qd.onion/products"8. Now wget should start downloading the web pages on the Onion site abyssou4y5ang24dn4cfkrwd3fsiczx7xg7n7mzlcthrpktfcar6j2qd.onion
+9. Type "man wget" in the Terminal to read about all the options you have in wget. 
+10. Examine the command "wget -nd -np -P /tmp/books --wait 1 -r --accept jpg,jpeg,png,gif,bmp -i /tmp/url.list" - what does it do exactly? 
 
 
 #######################################
