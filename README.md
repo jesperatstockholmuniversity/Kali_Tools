@@ -13,6 +13,10 @@ In the file **dark_web_forensics.txt** you will find some exercises, tools, and 
 In the folder onion_site_scraping you will find some Python scripts designed to scrape websites on the Tor network (also known as Onion Services). 
 
 
+## The Kali VM ##
+A Kali VM with all the necessary tools and dependencies installed on it is available here: http://ftp.cs2lab.dsv.su.se/kali_tools.ova
+
+
 ## More Tools ##
 * A great resource for finding forensic tools is: https://forensicswiki.xyz
 * Some additional network forensics tools can be found here: https://resources.infosecinstitute.com/topic/network-forensics-tools/
