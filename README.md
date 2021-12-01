@@ -14,7 +14,7 @@ In the folder onion_site_scraping you will find some Python scripts designed to 
 
 
 ## The Kali VM ##
-A Kali VM with all the necessary tools and dependencies installed on it is available here: http://ftp.cs2lab.dsv.su.se/kali_tools.ova
+A Kali VM with all the necessary tools and dependencies installed on it is available here: http://d3.cs2lab.dsv.su.se/Kali_Tools.ova
 
 
 ## More Tools ##
