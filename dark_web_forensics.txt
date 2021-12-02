@@ -60,4 +60,5 @@ to Automatically Scrape an Onion Site
 9. Go back from this web page to the start page of Kali Tools and go to the folder Tor_Scraping
 10. Download the selenium_scraping.py script
 11. Start the Tor service with: $ sudo service tor start (or check if it is already running with $ sudo service tor status) 
-12. Run $ kali_tor_scraper.py onionsiteURL.onion 
+12. Run $ kali_tor_scraper.py onionsiteURL.onion
+13. Run $ python whm_image_scrape.py "http://hvilngbbx2yxtq7ilsrjsosv374phq4jx2nq5izot5baxlqyjy3u2cid.onion/login" <username> <password> /home/kali/Downloads/tor-browser_en-US/
